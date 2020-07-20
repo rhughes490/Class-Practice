@@ -1,22 +1,19 @@
 public class Calculator {
-        private int firstNum;
-        private int secondNum;
 
-        public Calculator(int firstNum, int secondNum) {
-            this.firstNum = firstNum;
-            this.secondNum = secondNum;
+        public int add(int firstNum, int secondNum) {
+            return firstNum + secondNum;
         }
 
-        public int add() {
-            return this.firstNum + this.secondNum;
+        public int subtract(int firstNum, int secondNum) {
+            return firstNum - secondNum;
         }
 
-        public int subtract() {
-            return this.firstNum - this.secondNum;
+        public int multiply(int firstNum, int secondNum) {
+            return firstNum * secondNum;
         }
 
-        public int multiply() {
-            return this.firstNum*this.secondNum;
+        public double divide(double firstNum, double secondNum) {
+            return firstNum / secondNum;
         }
 
 }
